@@ -31,7 +31,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   color: #222325;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .login-box .header p {
   font-family: sans-serif;
@@ -40,7 +40,7 @@ body {
   color: #33333368;
 }
 .input {
-  margin: 25px auto;
+  margin: 40px auto;
   width: 90%;
 }
 .input label {
