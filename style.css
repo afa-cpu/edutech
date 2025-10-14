@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fffdf3;
+}
+/* login navbar */
+.login-navbar {
+  background-color: #ffffff;
+}
+.login-navbar img {
+  padding: 10px 10%;
+}
+
+/* login box */
+.login-box {
+  width: 590px;
+  height: 617px;
+  background-color: #ffffff;
+  margin: 8% auto;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+}
+.login-box .header {
+  text-align: center;
+}
+.login-box .header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #222325;
+  margin-top: 20px;
+}
+.login-box .header p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #33333368;
+}
+.input {
+  margin: 25px auto;
+  width: 90%;
+}
+.input label {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #4a505c;
+}
+.input label span {
+  color: red;
+}
+.input input {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+}
+.lupa-password{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #4a505c;
+    text-align: right;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn .btn-masuk button{
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #3ecf4c;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.btn .btn-daftar button{
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #3ecf4c;
+    padding: 10px;
+    background-color: #e2fcd9;
+    border: none;
+    border-radius: 10px;
+}
