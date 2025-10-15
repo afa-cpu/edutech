@@ -8,11 +8,10 @@ body {
 }
 /* login navbar */
 .login-navbar {
-  width: 100%;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 .login-navbar img {
-  padding: 10px 10%;
+  padding: 5px 10%;
 }
 
 /* login box */
@@ -92,14 +91,14 @@ body {
   border: none;
   border-radius: 10px;
 }
-.line{
+.line {
   margin-top: 35px;
 }
-.line hr{
+.line hr {
   color: #f1f1f1;
   position: relative;
 }
-.line p{
+.line p {
   font-size: 16px;
   font-family: sans-serif;
   font-weight: 400;
@@ -109,7 +108,7 @@ body {
   position: absolute;
   transform: translate(465%, -55%);
 }
- .login-google button{
+.login-google button {
   width: 100%;
   margin-top: 30px;
   border: 1px solid #f1f1f1;
@@ -121,9 +120,38 @@ body {
   padding: 10px;
   background: #ffffff;
   position: relative;
- }
- .login-google img{
+}
+.login-google img {
   width: 25px;
   position: absolute;
   transform: translate(-1530%, 150%);
- }
+}
+/* Media screen */
+@media screen and (max-width: 360px) {
+  .login-box {
+    width: 320px;
+  }
+
+  .login-navbar img {
+    padding: 3px 1%;
+    width: 200px;
+  }
+  .login-box .header h2 {
+    font-size: 24px;
+  }
+  .login-box .header p,
+  .input label,
+  .lupa-password p,
+  .btn .btn-masuk button,
+  .btn .btn-daftar button,
+  .line p,
+  .login-google button {
+    font-size: 14px;
+  }
+  .line p {
+    transform: translate(250%, -55%);
+  }
+  .login-google img {
+    transform: translate(-1000%, 150%);
+  }
+}
